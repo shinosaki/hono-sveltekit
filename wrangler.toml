@@ -1,0 +1,10 @@
+name = "testapp"
+# main = ".cloudflare/worker.js"
+main = "hono.js"
+compatibility_date = "2023-10-01"
+
+[site]
+bucket = "./.cloudflare/public"
+
+[build]
+command = "npm run build"

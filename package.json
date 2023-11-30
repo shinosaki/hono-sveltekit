@@ -1,0 +1,22 @@
+{
+	"name": "hono-sveltekit",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "wrangler dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-cloudflare-workers": "^1.2.1",
+		"@sveltejs/kit": "^1.27.4",
+		"svelte": "^4.2.7",
+		"vite": "^4.4.2",
+		"wrangler": "^3.17.1"
+	},
+	"type": "module",
+	"dependencies": {
+		"hono": "^3.10.3"
+	}
+}
